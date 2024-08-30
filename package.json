@@ -1,0 +1,30 @@
+{
+  "name": "smartthings-tv-hk",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "A simple HomeKit accessory made using HAP-NodeJS to make your SmartThings TV into a switch that can be controlled from HomeKit.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "homekit",
+    "accessory",
+    "tv",
+    "tizen",
+    "smart-things",
+    "smart",
+    "things",
+    "smartthings",
+    "switch",
+    "hk",
+    "hap-nodejs"
+  ],
+  "author": "Lev Grachov",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "hap-nodejs": "^1.1.0",
+    "ky": "^1.7.1"
+  }
+}
